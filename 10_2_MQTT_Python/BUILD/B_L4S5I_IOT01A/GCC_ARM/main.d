@@ -1,5 +1,5 @@
-../BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
- ../BUILD/B_L4S5I_IOT01A/GCC_ARM/mbed_config.h \
+BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
+ BUILD/B_L4S5I_IOT01A/GCC_ARM/mbed_config.h \
  /home/ee2405/ee2405/mbed-os/mbed.h \
  /home/ee2405/ee2405/mbed-os/platform/include/platform/mbed_version.h \
  /home/ee2405/ee2405/mbed-os/rtos/include/rtos/rtos.h \
@@ -322,11 +322,19 @@
  /home/ee2405/ee2405/mbed-os/hal/include/hal/mpu_api.h \
  /home/ee2405/ee2405/mbed-os/platform/include/platform/ScopedRamExecutionLock.h \
  /home/ee2405/ee2405/mbed-os/platform/include/platform/mbed_stats.h \
- MQTTNetwork.h \
+ wifi_mqtt/MQTTNetwork.h \
  /home/ee2405/ee2405/mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
- MQTT/MQTTmbed.h MQTT/MQTTClient.h MQTT/FP/FP.h \
- MQTT/MQTTPacket/MQTTPacket.h MQTT/MQTTPacket/MQTTConnect.h \
- MQTT/MQTTPacket/MQTTPublish.h MQTT/MQTTPacket/MQTTSubscribe.h \
- MQTT/MQTTPacket/MQTTUnsubscribe.h MQTT/MQTTPacket/MQTTFormat.h \
- MQTT/MQTTPacket/StackTrace.h MQTT/MQTTPacket/MQTTPacket.h \
- MQTT/MQTTLogging.h
+ wifi_mqtt/MQTT/MQTTmbed.h wifi_mqtt/MQTT/MQTTClient.h \
+ wifi_mqtt/MQTT/FP/FP.h wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTConnect.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPublish.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTSubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTUnsubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTFormat.h \
+ wifi_mqtt/MQTT/MQTTPacket/StackTrace.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h wifi_mqtt/MQTT/MQTTLogging.h \
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.h \
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.h \
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/lsm6dsl.h \
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/accelero.h \
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/gyro.h
